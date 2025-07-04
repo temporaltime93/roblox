@@ -108,7 +108,7 @@ end
 
 for i = 1, 20 do
     SendMessage("Fuck you Gays")
-    task.wait(2)
+    task.wait(1)
 end
 
 Player:Kick("OYE QUE HACES AQUI ESTAS BANEADO")
