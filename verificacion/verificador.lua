@@ -49,7 +49,7 @@ end
 local nombre = game.Players.LocalPlayer.Name
 
 if isBlacklisted(nombre) then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/1RubiUwU1/ChatPgx/refs/heads/main/ban.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/temporaltime93/roblox/refs/heads/main/verificacion/ban.lua"))()
 	-- opcional: player:Kick("Estás baneado.")
 else
 	print("* " .. nombre .. " no está en la lista negra.")
