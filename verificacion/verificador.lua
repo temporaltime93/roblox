@@ -5,7 +5,7 @@ local Players = game:GetService("Players")
 
 -- ? Descargar y ejecutar lista.lua desde GitHub
 local success, response = pcall(function()
-	return game:HttpGet("https://raw.githubusercontent.com/1RubiUwU1/ChatPgx/main/lista.lua")
+	return game:HttpGet("https://raw.githubusercontent.com/temporaltime93/roblox/refs/heads/main/verificacion/lista.lua")
 end)
 
 if success then
